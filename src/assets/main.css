@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f6f6f6;
+    min-height: 100%;
+}
+
+#home .container {
+    max-width: 640px;
+    padding: 20px;
+}
+.card {
+    box-shadow: 0 2px 5px 0 rgba(146, 146, 146, .1);
+    border-radius: 2px;
+}
+
+.card-image {
+    max-height: 280px;
+    overflow: hidden;
+}
+.card-content {
+    min-height: 170px;
+}
+
+.logo {
+    max-width: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+.logo img {
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    padding: 1px;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.title {
+    position: absolute;
+    color: #fff;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    background: #333;
+}
+
+.rank-select, .rank-select select {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.submit-button {
+    font-size: 1.1125rem;
+    padding: 15px 40px;
+    height: auto;
+    border-radius: 2px;
+}
+  
+
+.is-info {
+    background-color: #1e87f0 !important;
+}
+
+.is-info:hover {
+    background-color: #0f7ae5 !important;
+}
+
+.is-dark {
+    background-color: #333 !important;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    color: #666;
+}
